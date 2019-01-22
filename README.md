@@ -1,0 +1,24 @@
+# Rails + Stimulus + Webpack + Bootstrap 4 
+
+Combination of my favourite web stack with piece of modern stuff.
+
+* StimulusJS - https://stimulusjs.org/
+* Bootstrap CSS https://getbootstrap.com
+
+## Requirements
+* Yarn
+* Rails > 5
+
+## How to
+
+* git checkout
+* bundle install
+* Start developer webpack `./bin/webpack-dev-server`
+* Start Rails server `rails s`
+* Ready to use at http://localhost:3000
+
+
+## Credits
+
+* [@noroot](https://twitter.com/noroot)
+* [FalseTrue](https://blog.falsetrue.io)

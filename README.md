@@ -18,6 +18,12 @@ Combination of my favourite web stack with piece of modern stuff.
 * Ready to use at http://localhost:3000
 
 
+## Changelog
+
+### [1.0.0] - 2018-01-23
+- Webpack 4
+- Babel 7
+
 ## Credits
 
 * [@noroot](https://twitter.com/noroot)

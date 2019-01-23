@@ -1,18 +1,24 @@
 {
   "presets": [
-    ["env", {
+    ["@babel/preset-env", {
       "modules": false,
       "targets": {
         "browsers": "> 1%",
         "uglify": true
       },
-      "useBuiltIns": true
+      "useBuiltIns": 'entry',
+      "forceAllTransforms": true
     }]
   ],
 
   "plugins": [
-    "syntax-dynamic-import",
-    "transform-object-rest-spread",
-    ["transform-class-properties", { "spec": true }]
+    '@babel/plugin-proposal-class-properties',
+    '@babel/plugin-transform-modules-commonjs',
+    '@babel/plugin-proposal-export-default-from',
+    '@babel/plugin-proposal-export-namespace-from',
+    '@babel/plugin-syntax-dynamic-import',
+    '@babel/plugin-proposal-object-rest-spread',
+    '@babel/plugin-transform-runtime'
+   
   ]
 }

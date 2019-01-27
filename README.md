@@ -20,7 +20,7 @@ Combination of my favourite web stack with piece of modern stuff.
 
 ## Changelog
 
-### [1.0.0] - 2018-01-25
+### [1.0.1] - 2018-01-25
 - Add rails-ujs and turbolinks back to loading inside application.js
 
 ### [1.0.0] - 2018-01-23
